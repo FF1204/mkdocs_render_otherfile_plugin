@@ -3,7 +3,6 @@ import os
 from mkdocs.config import config_options
 from mkdocs.plugins import BasePlugin
 from mkdocs import utils
-from . import markdown as md
 
 class RenderOtherfilePlugin(BasePlugin):
     config_scheme = (
