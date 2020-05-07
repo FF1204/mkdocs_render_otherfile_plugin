@@ -42,6 +42,4 @@ plugins:
 
 ## Options
 
-- `ext`: mkdocs 默认只渲染markdown文件，配置其他的文件后缀以支持渲染成HTML页面
-
-**注意** 当前实现的是渲染源代码文件，简单的把源码文件放入 "\``` \``` "中实现。
+- `ext`: files ext render in mkdocs build process.
